@@ -2,19 +2,18 @@
   body.lock {
     overflow: hidden;
   }
-  .header_burger_wrap {
+  
+  .header_burger {
+    position: relative;
+    z-index: 6;
+    right: 4px;
+    order: 1;
     background: #f1f1f1;
     padding: 15px;
     border-radius: 50%;
     width: 45px;
     height: 45px;
     z-index: 6;
-  }
-  .header_burger {
-    position: relative;
-    z-index: 6;
-    right: 4px;
-    order: 1;
   }
   .header_burger:after,
   .header_burger::before {
@@ -28,18 +27,20 @@
     -o-transition: all 0.3s;
   }
   .header_burger::before {
-    bottom: -14px;
+    bottom: 16px;
+    left: 11px;
   }
   .header_burger:after {
-    top: 0;
+    top: 11px;
+    left: 11px;
   }
   .header_burger.active:before {
     transform: rotate(-45deg);
-    top: 5px;
+    top: 20px;
   }
   .header_burger.active:after {
     transform: rotate(45deg);
-    top: 5px;
+    top: 20px;
   }
   .header_burger.active span {
     transform: scale(0);
@@ -50,7 +51,8 @@
     width: 24px;
     height: 2px;
     background: rgb(0, 0, 0);
-    top: 6px;
+    top: 19px;
+    left: 11px;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -o-transition: all 0.3s;
