@@ -2,7 +2,7 @@
   body.lock {
     overflow: hidden;
   }
-  
+
   .header_burger {
     position: relative;
     z-index: 6;
@@ -638,7 +638,28 @@
     background-position: right;
   }
 }
-
+@media only screen and (max-width: 390px) {
+  .header_content:after {
+    width: 250px;
+    height: 250px;
+  }
+  .about::after {
+    left: 23%;
+  }
+  .securyti::after {
+    left: 23%;
+    top: -10%;
+  }
+  .appearance_item-content {
+    bottom: -35%;
+  }
+  .slick-next {
+    right: 23%;
+  }
+  .slick-prev {
+    left: 33px;
+  }
+}
 @media only screen and (max-width: 374px) {
   .slider-dots {
     left: 28%;
