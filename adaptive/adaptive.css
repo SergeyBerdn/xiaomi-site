@@ -517,6 +517,8 @@
   .rev_slik:after {
     width: 200px;
     height: 200px;
+    left: 26%;
+    top: 117%;
   }
   .rev_btn {
     text-align: center;
@@ -540,13 +542,12 @@
   .application_wraper::after {
     width: 200px;
     height: 200px;
+    left: 26%;
   }
   .question:after {
-    left: 20%;
     right: 20%;
   }
   .question:before {
-    left: 20%;
     right: 20%;
   }
   .speed_title {
@@ -644,16 +645,27 @@
     height: 250px;
   }
   .about::after {
-    left: 23%;
+    left: 26%;
   }
   .securyti::after {
-    left: 23%;
+    left: 26%;
     top: -10%;
   }
   .appearance_item-content {
     bottom: -35%;
   }
-  
+  .application_wraper::after {
+    left: 23%;
+  }
+  .rev_slik:after {
+    left: 24%;
+  }
+  .question:after {
+    left: 26%;
+  }
+  .question:before {
+    left: 26%;
+  }
 }
 @media only screen and (max-width: 374px) {
   .slider-dots {
@@ -671,5 +683,28 @@
   }
   .rev_slik-item {
     width: 300px;
+  }
+  .header_content:after {
+    width: 200px;
+    height: 200px;
+  }
+  .about::after {
+    left: 20%;
+  }
+  .securyti::after {
+    left: 20%;
+    top: -10%;
+  }
+  .application_wraper::after {
+    left: 20%;
+  }
+  .rev_slik:after {
+    left: 18%;
+  }
+  .question:after {
+    left: 20%;
+  }
+  .question:before {
+    left: 20%;
   }
 }
