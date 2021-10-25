@@ -448,6 +448,7 @@
   }
   .question::before {
     left: 29%;
+    top: 80%;
   }
   .question_form {
     text-align: center;
