@@ -490,7 +490,7 @@
     margin: 0 60px 40px 0;
   }
   .slick-prev {
-    left: 73%;
+    left: 70%;
   }
   .slideText_subtitle {
     width: 100%;
@@ -526,7 +526,7 @@
     left: 0;
   }
   .slick-next {
-    right: 10%;
+    right: 10px;
   }
   .rev_slik-item {
     width: 310px;
@@ -653,12 +653,7 @@
   .appearance_item-content {
     bottom: -35%;
   }
-  .slick-next {
-    right: 23%;
-  }
-  .slick-prev {
-    left: 33px;
-  }
+  
 }
 @media only screen and (max-width: 374px) {
   .slider-dots {
