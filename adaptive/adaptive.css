@@ -27,11 +27,11 @@
     -o-transition: all 0.3s;
   }
   .header_burger::before {
-    bottom: 16px;
+    bottom: 15px;
     left: 11px;
   }
   .header_burger:after {
-    top: 11px;
+    top: 14px;
     left: 11px;
   }
   .header_burger.active:before {
@@ -51,7 +51,7 @@
     width: 24px;
     height: 2px;
     background: rgb(0, 0, 0);
-    top: 19px;
+    top: 21px;
     left: 11px;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
@@ -67,7 +67,9 @@
     right: 0;
     width: 100%;
     height: 100%;
-    background: #ff4c0d;
+    background: -webkit-linear-gradient(180deg, rgb(22, 80, 144) 5%, rgb(255, 76, 13));
+    background: -moz-linear-gradient(180deg, rgb(22, 80, 144) 5%, rgb(255, 76, 13));
+    background: linear-gradient(180deg, rgb(22, 80, 144) 5%, rgb(255, 76, 13));
     opacity: 1;
     z-index: 5;
     overflow: auto;
@@ -510,7 +512,11 @@
     height: 200px;
   }
   .speed_content-subtitle {
-    font-size: 12px;
+    font-size: 13px;
+    font-weight: 500;
+  }
+  .speed_content {
+    padding-top: 49px;
   }
   .rev_title {
     font-size: 25px;
@@ -555,10 +561,7 @@
     font-size: 25px;
   }
   .about_item-title {
-    font-size: 16px;
-  }
-  .about_item-subtitle {
-    font-size: 12px;
+    font-size: 18px;
   }
   .price_item-left {
     padding: 0 15px;
@@ -567,10 +570,10 @@
     left: 33%;
   }
   .appearance_item-title {
-    font-size: 16px;
+    font-size: 18px;
   }
   .appearance_item-subtitle {
-    font-size: 12px;
+    font-size: 13px;
   }
   .appearance_item {
     margin-bottom: 200px;
@@ -582,10 +585,10 @@
     left: 0;
   }
   .securyti_item-subtitle {
-    font-size: 12px;
+    font-size: 13px;
   }
   .securyti_item-title {
-    font-size: 16px;
+    font-size: 18px;
   }
   .securyti_item::after {
     top: 24px;
@@ -594,7 +597,7 @@
     font-size: 25px;
   }
   .application_subtitle {
-    font-size: 12px;
+    font-size: 13px;
     padding: 30px 0 14px 0;
   }
   .application {
@@ -610,7 +613,7 @@
     font-size: 25px;
   }
   .question_form-text {
-    font-size: 12px;
+    font-size: 13px;
   }
   .question_form p {
     margin: 10px 0 0px;
@@ -638,6 +641,12 @@
   }
   .speed {
     background-position: right;
+  }
+  .slideText_title {
+    font-size: 25px;
+  }
+  .slideText_subtitle {
+    font-size: 13px;
   }
 }
 @media only screen and (max-width: 425px) {
