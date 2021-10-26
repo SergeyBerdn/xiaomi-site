@@ -22,6 +22,21 @@ $(document).ready(function() {
 });
 // Бургер меню
 
+// Скрывает бургер при клине на пункты меню
+$(document).ready(function() {
+    $('.header_nav-link').click(function(event) {
+        $('.header_burger, .header_nav').removeClass('active');
+        $('body').removeClass('lock')
+    });
+});
+
+//Ссылки якоря и плавный переход 
+$("#menu").on("click","a", function (event) {
+	event.preventDefault();
+	var id = $(this).attr('href'),
+		top = $(id).offset().top;
+	$('body,html').animate({scrollTop: top}, 1000);
+});
 
 
 
