@@ -60,7 +60,7 @@ header {
   position: fixed;
   width: 100%;
   background-color: rgb(0 0 0 / 40%);
-  transition: linear 1s;
+  transition: linear 0.2s;
   left: 0;
   top: 0;
   padding: 10px 20px;
@@ -255,7 +255,7 @@ label:after {
   opacity: 0.4;
   color: #ffff;
 }
-.about_item-img{
+.about_item-img {
   display: none;
 }
 .about_item::after {
@@ -390,7 +390,7 @@ label:after {
 /*Securyti Start*****************************/
 .securyti {
   position: relative;
-  padding-top: 200px;
+  padding-top: 100px;
 }
 .securyti::after {
   position: absolute;
@@ -414,7 +414,7 @@ label:after {
   color: #ff4c0d;
   padding-bottom: 50px;
 }
-.sec-width-title{
+.sec-width-title {
   width: 190px;
 }
 .securyti_title::after {
@@ -437,7 +437,7 @@ label:after {
   line-height: 150%;
   letter-spacing: -0.03em;
 }
-.securyti_item-wrap{
+.securyti_item-wrap {
   position: relative;
   display: flex;
   justify-content: space-between;
@@ -481,7 +481,7 @@ label:after {
   -webkit-transition: linear 0.3s;
   -o-transition: linear 0.3s;
 }
-.securyti_item-img{
+.securyti_item-img {
   display: none;
 }
 .securyti_images {
@@ -925,4 +925,14 @@ label:after {
 }
 .time-text {
   margin-bottom: 15px;
+}
+
+.element-animation {
+  
+  opacity: 0;
+}
+.element-show {
+
+  opacity: 1;
+  transition: all 3s;
 }
