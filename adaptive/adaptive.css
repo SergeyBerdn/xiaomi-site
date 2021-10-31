@@ -520,9 +520,13 @@
     width: 200px;
     height: 200px;
   }
+  .speed_title {
+    color: #151515;
+  }
   .speed_content-subtitle {
     font-size: 13px;
     font-weight: 500;
+    color: #151515;
   }
   .speed_content {
     padding-top: 49px;
@@ -565,9 +569,6 @@
   }
   .question:before {
     right: 20%;
-  }
-  .speed_title {
-    font-size: 25px;
   }
   .about_item-title {
     font-size: 18px;
